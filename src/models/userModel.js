@@ -17,7 +17,11 @@ const userSchema = mongoose.Schema({
     },
     password : {
         type : String,
+        length : 17,
         required : true
+    },
+    image : {
+        type : image,
     },
     completed : {
         type : Boolean,

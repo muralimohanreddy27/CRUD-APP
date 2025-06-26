@@ -18,7 +18,18 @@ export const createTodo = async(req, res) => {
 
 
 
-//read a Todo
+//read all Todo
+export const getTodo  = () => {}
+
+
+//read one
+export const getTodoById = () => {}
+
+
 //update
+export const updateTodo = () => {}
+
+
 //delete
+export const deleteTodo = () => {}
 
